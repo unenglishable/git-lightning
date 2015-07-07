@@ -34,4 +34,4 @@ ie: `git remote add origin git@github.com:user/repo-name`
 
 3. `git clone [link]`
 
-ex: `git clone git@github.com:unenglishable/git-lightning`
+eg: `git clone git@github.com:unenglishable/git-lightning`
