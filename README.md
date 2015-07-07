@@ -6,6 +6,10 @@
 
 2. `git config --global user.email your@e.mail`
 
+3. rerere
+
+4. merge conflict style diff3
+
 ##new git project
 
 1. create a directory
