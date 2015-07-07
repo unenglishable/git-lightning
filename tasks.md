@@ -36,3 +36,19 @@ Using any language you want, complete the following tasks.
     - This command should show a * next to your current branch.
   - Push your code to github `git push`
 
+2. uppercaser (practice adding to a file)
+  - The program should take in user input and output the uppercased form of the
+    text.
+  - Breaking the program down into steps we have:
+    1. Take in user input
+    2. Convert to upper case
+    3. Write/output to the console
+  - Stub a file.  Create a new file with a comment that contains your team's
+    name.
+  - Commit and push that file
+  - Have everyone do `git pull` get the latest changes
+  - Split up these tasks amongst your team
+    - Each member should be doing the task on their own instance of a repo.
+    - When you are done with the task, commit it like before, but do not push
+      yet.
+    - Each version of the code file
