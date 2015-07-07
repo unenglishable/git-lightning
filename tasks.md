@@ -24,10 +24,15 @@ Create a branch with your team's name.
 
 Using any language you want, complete the following tasks.
 
-1. hello world
+1. hello world (practice committing)
   - The program should output: "hello world"
   - You can check what files have changed with `git status`
   - When you are done, do `git add [file]`
   - Check again with `git status` to make sure you have added the correct file.
   - Do `git commit` when you have staged the correct files.  Otherwise do `git
     reset [file]` on files you do not want to commit.
+  - Write a commit message.
+  - Make sure you are on your team's branch `git branch`
+    - This command should show a * next to your current branch.
+  - Push your code to github `git push`
+
