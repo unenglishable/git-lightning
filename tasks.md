@@ -2,23 +2,23 @@
 
 ##make a github account
 
-When you are done I will add you to the "collaborators" on my project.
+https://github.com/join
 
-##clone my repo
+##fork my repo for your team and clone it individually
 
-1. Clone my repo: `git clone git@github.com:unenglishable/git-lightning`
+1. Fork my repo: `https://github.com/unenglishable/git-lightning`
+  - Press the fork button
+  - Only one person has to do this
 
-That's it!  You're done.
+2. Set up permissions (add teammates as collaborators)
+
+3. Clone the repo: `git clone git@github.com:username/git-lightning`
 
 ##make a directory in there with your team name (or username)
 
 1. `mkdir team_name`
 
 All your team's code will go in here.
-
-2. `git checkout -b [team-name]`
-
-Create a branch with your team's name.
 
 ##start writing some code
 
