@@ -24,6 +24,8 @@
 
 6. add the remote and push
 
+ie: `git remote add origin git@github.com:user/repo-name`
+
 ##get a github project
 
 1. find the repo on github
