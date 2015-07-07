@@ -10,6 +10,12 @@ When you are done I will add you to the "collaborators" on my project.
 
 That's it!  You're done.
 
+##make a directory in there with your team name (or username)
+
+`mkdir team_name`
+
+All your team's code will go in here.
+
 ##start writing some code
 
 Using any language you want, complete the following tasks.
