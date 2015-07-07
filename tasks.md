@@ -12,9 +12,13 @@ That's it!  You're done.
 
 ##make a directory in there with your team name (or username)
 
-`mkdir team_name`
+1. `mkdir team_name`
 
 All your team's code will go in here.
+
+2. `git checkout -b [team-name]`
+
+Create a branch with your team's name.
 
 ##start writing some code
 
