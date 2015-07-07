@@ -1,5 +1,11 @@
 #git lightning start!
 
+##first time git stuff
+
+1. `git config --global user.name "your name"`
+
+2. `git config --global user.email your@e.mail`
+
 ##new git project
 
 1. create a directory
