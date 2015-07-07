@@ -51,4 +51,4 @@ Using any language you want, complete the following tasks.
     - Each member should be doing the task on their own instance of a repo.
     - When you are done with the task, commit it like before, but do not push
       yet.
-    - Each version of the code file
+    - Each version of the code file should do exactly one thing.
