@@ -17,6 +17,8 @@ http://psung.blogspot.com/2011/02/reducing-merge-headaches-git-meets.html
 
 4. merge conflict style diff3
 
+
+------DONT DO THIS
 ##new git project
 
 1. create a directory
@@ -32,6 +34,7 @@ http://psung.blogspot.com/2011/02/reducing-merge-headaches-git-meets.html
 6. add the remote and push
 
 ie: `git remote add origin git@github.com:user/repo-name`
+------DONT DO THIS
 
 ##get a github project
 
