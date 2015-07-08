@@ -3,6 +3,7 @@
 ##first time git stuff
 
 *. Create ssh key (or add it to github if you already have one)
+  - `mkdir ~/.ssh`
   - `ssh-keygen`, and follow the directions
   - choose a directory like `~/.ssh/id_rsa`
 
