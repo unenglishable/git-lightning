@@ -52,3 +52,12 @@ Using any language you want, complete the following tasks.
     - When you are done with the task, commit it like before, but do not push
       yet.
     - Each version of the code file should do exactly one thing.
+
+3. hello world again (merge conflicts)
+  - Take your hello world program and edit it to say "Hello World, again."
+  - Split this task up into parts
+    - Capitalize
+    - Add punctuation
+    - Add "again"
+  - Since you are changing the same line, this will result in a merge conflict
+
