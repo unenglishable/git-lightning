@@ -2,6 +2,10 @@
 
 ##first time git stuff
 
+*. Create ssh key (or add it to github if you already have one)
+  - `ssh-keygen`, and follow the directions
+  - choose a directory like `~/.ssh/id_rsa`
+
 1. `git config --global user.name "your name"`
 
 2. `git config --global user.email your@e.mail`
