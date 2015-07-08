@@ -8,6 +8,8 @@
 
 3. rerere
 
+http://psung.blogspot.com/2011/02/reducing-merge-headaches-git-meets.html
+
 4. merge conflict style diff3
 
 ##new git project
