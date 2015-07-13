@@ -70,3 +70,16 @@ code in [other-branch] are the changes you are trying to merge in.  By enabling
 
 [read about diff3 and
 rerere](http://psung.blogspot.com/2011/02/reducing-merge-headaches-git-meets.html)
+
+##Patch add/reset/checkout
+
+`git [add/reset/checkout] -p`
+
+Adding code with a patch useful for committing specific lines in a file.  This
+helps keep your commits logically separate, which plays a big role in how useful
+git will be in your project.  Developers have different ideas about how much
+code is acceptable to have in each commit.
+
+Over time, you may find that your commits are too large to easily pick and choose
+lines of code from.  I've gotten used to making tiny commits, with just enough
+code to complete a small task or a single part of a large task.
