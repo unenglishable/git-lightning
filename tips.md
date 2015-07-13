@@ -45,7 +45,7 @@ node_modules/
 temp/
 ```
 
-##merge conflicts
+##Merge conflicts
 
 Merge conflicts happen when two commits have changed the same line, or add the
 same lines.
