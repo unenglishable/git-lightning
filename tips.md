@@ -44,3 +44,28 @@ Example `.gitignore`:
 node_modules/
 temp/
 ```
+
+##merge conflicts
+
+Merge conflicts happen when two commits have changed the same line, or add the
+same lines.
+
+Dealing with merge conflicts can be one of the most frustrating tasks when
+learning git.  When you get a merge conflict, it's important to understand what
+you are looking at in a conflicted file.
+
+In the default mode, there are two parts:
+
+`<<<<<<< HEAD`
+`>>>>>>> [other-branch]`
+
+These parts are separated by:
+
+`=======`
+
+The code in HEAD is the code that has been written in the current branch.  The
+code in [other-branch] are the changes you are trying to merge in.  By enabling
+`diff3`, you can also see the common ancestors of the two branches.
+
+[read about diff3 and
+rerere](http://psung.blogspot.com/2011/02/reducing-merge-headaches-git-meets.html)
