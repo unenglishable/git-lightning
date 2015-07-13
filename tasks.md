@@ -4,21 +4,15 @@
 
 https://github.com/join
 
-##fork my repo for your team and clone it individually
+##make a directory in there
 
-1. Fork my repo: `https://github.com/unenglishable/git-lightning`
-  - Press the fork button
-  - Only one person has to do this
+1. `mkdir [some_name]`
 
-2. Set up permissions (add teammates as collaborators)
+2. `cd [some_name]`
 
-3. Clone the repo: `git clone git@github.com:username/git-lightning`
+3. `git init`
 
-##make a directory in there with your team name (or username)
-
-1. `mkdir team_name`
-
-All your team's code will go in here.
+All your code will go in here.
 
 ##start writing some code
 
@@ -40,18 +34,17 @@ Using any language you want, complete the following tasks.
   - The program should take in user input and output the uppercased form of the
     text.
   - Breaking the program down into steps we have:
-    1. Take in user input
+    1. Take in user input and output to the console.
     2. Convert to upper case
-    3. Write/output to the console
-  - Stub a file.  Create a new file with a comment that contains your team's
-    name.
+  - Stub a file.  Create a new file with a comment that contains a comment with
+    your team's name.
   - Commit and push that file
   - Have everyone do `git pull` get the latest changes
   - Split up these tasks amongst your team
     - Each member should be doing the task on their own instance of a repo.
     - When you are done with the task, commit it like before, but do not push
       yet.
-    - Each version of the code file should do exactly one thing.
+    - Each version of the code file should complete one step.
 
 3. hello world again (merge conflicts)
   - Take your hello world program and edit it to say "Hello World, again."
@@ -60,4 +53,4 @@ Using any language you want, complete the following tasks.
     - Add punctuation
     - Add "again"
   - Since you are changing the same line, this will result in a merge conflict
-
+    resolve the merge conflict.
