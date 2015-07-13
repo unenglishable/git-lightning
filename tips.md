@@ -57,6 +57,7 @@ you are looking at in a conflicted file.
 In the default mode, there are two parts:
 
 `<<<<<<< HEAD`
+
 `>>>>>>> [other-branch]`
 
 These parts are separated by:
