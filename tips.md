@@ -38,12 +38,12 @@ Git will parse the `.gitignore` file the same way you would navigate in the
 command line.
 
 Example `.gitignore`:
-```
+````
 *.o
 *.out
 node_modules/
 temp/
-```
+````
 
 ##Merge conflicts
 
