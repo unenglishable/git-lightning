@@ -1,5 +1,20 @@
 #Protips
 
+##Command line Git log
+
+In your `~/.aliases` file:
+
+`alias gl="git log --graph --abbrev-commit --pretty=oneline --decorate"`
+
+With this alias, `gl` shows you the commit tree, similar to `gitk`.  If you
+don't have a Git GUI, this command is absolutely necessary.  You can use the
+`--all` argument to see all branches.
+
+`gl --all`
+
+See [interactive rebase](###Interactive Rebase) for more help on viewing commit
+history in the command line.
+
 ##Commit messages
 
 There are several conventions that will help you make the most use out of commit
