@@ -83,3 +83,26 @@ code is acceptable to have in each commit.
 Over time, you may find that your commits are too large to easily pick and choose
 lines of code from.  I've gotten used to making tiny commits, with just enough
 code to complete a small task or a single part of a large task.
+
+##Rebase
+
+`git rebase [branch]` OR `git rebase [base] [branch]`
+
+This command rebases your current branch onto `[branch]`.  It will take whatever
+commits that are new on your branch and try to stack them onto the end of the
+other `[branch]`.  Rebasing is good for adding changes from another branch into
+your current working branch.  (if your workflow involves working on a branch
+locally)
+
+Be careful when using this with a team.  If you rebase a branch that you have
+already pushed, it requires a force push (`git push --force`) to update the
+remote branch.  I highly recommend avoiding `--force` on a push.  It is VERY
+inconsiderate to other people working on your project.  Use the interactive
+rebase on a branch that you have not pushed yet, and use a `git merge --no-ff`
+on a branch that you have already pushed.
+
+###Interactive Rebase
+
+`git rebase [branch] -i`
+
+The interactive rebase is helpful for editing your current commit tree.
