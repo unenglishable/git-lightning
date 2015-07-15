@@ -12,8 +12,8 @@ don't have a Git GUI, this command is absolutely necessary.  You can use the
 
 `gl --all`
 
-See [interactive rebase](#Interactive Rebase) for more help on viewing commit
-history in the command line.
+See interactive rebase section for more help on viewing commit history in the
+command line.
 
 ##Commit messages
 
